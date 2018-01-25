@@ -1,0 +1,59 @@
+{
+    "_readme": [
+        "This file locks the dependencies of your project to a known state",
+        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
+        "This file is @generated automatically"
+    ],
+    "content-hash": "ec6d9e86fc8653ad9c2f2a1b5884dc9a",
+    "packages": [
+        {
+            "name": "irebit/composer-test",
+            "version": "v0.2",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/irebit/composer-test.git",
+                "reference": "ad22cc7427f1834354b7b2b927eb80a90985b136"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/irebit/composer-test/zipball/ad22cc7427f1834354b7b2b927eb80a90985b136",
+                "reference": "ad22cc7427f1834354b7b2b927eb80a90985b136",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.3.0"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "Ford\\Escape\\": "src/Ford/Escape",
+                    "Ford\\Fusion\\": "src/Ford/Fusion",
+                    "Ford\\Focus\\": "src/Ford/Focus",
+                    "Ford\\Fiesta\\": "src/Ford/Fiesta"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "afternoon",
+                    "email": "afternoon@irebit.com"
+                }
+            ],
+            "description": "测试如何发布composer包",
+            "time": "2018-01-25T11:28:17+00:00"
+        }
+    ],
+    "packages-dev": [],
+    "aliases": [],
+    "minimum-stability": "dev",
+    "stability-flags": [],
+    "prefer-stable": false,
+    "prefer-lowest": false,
+    "platform": {
+        "php": ">=5.3.0"
+    },
+    "platform-dev": []
+}

@@ -1,0 +1,22 @@
+{
+    "name": "irebit/composer-test2",
+    "description": "测试发布composer",
+    "require": {
+		"php" : ">=5.3.0",
+        "irebit/composer-test": "v0.2"
+    },
+	"require-dev":{
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "afternoon",
+            "email": "afternoon@irebit.com"
+        }
+    ],
+	"autoload" : {
+		"psr-4" : {
+			"Car\\Ford\\" : "src/Car/Ford"
+		}
+	}
+}
